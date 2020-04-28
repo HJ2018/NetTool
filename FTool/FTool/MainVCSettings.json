@@ -1,0 +1,37 @@
+[
+    {
+        "vcName": "HomeController",
+        "title": "主页",
+        "imageName": "tabBar_Home",
+        "imageNameClick": "tabBar_Home_click",
+        "navColor": "clearColor",
+        "StoryboardNmae": "",
+        "StoryboarID": ""
+    },{
+        "vcName": "OneViewController",
+        "title": "one",
+        "imageName": "tabBar_Home",
+        "imageNameClick": "tabBar_Home_click",
+        "navColor": "redColor",
+        "StoryboardNmae": "",
+        "StoryboarID": ""
+    },
+    {
+        "vcName": "TwoViewController",
+        "title": "two",
+        "imageName": "tabBar_Run",
+        "imageNameClick": "tabBar_Run_click",
+        "navColor": "blueColor",
+        "StoryboardNmae": "",
+        "StoryboarID": ""
+    },
+    {
+        "vcName": "ThreeViewController",
+        "title": "three",
+        "imageName": "tabBar_my",
+        "imageNameClick": "tabBar_my_click",
+        "navColor": "clearColor",
+        "StoryboardNmae": "Three",
+        "StoryboarID": "ThreeViewController"
+    }
+]

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RecommendCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="96" height="137"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="96" height="137"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar_user" translatesAutoresizingMaskIntoConstraints="NO" id="R4m-dU-HgI">
+                        <rect key="frame" x="0.0" y="0.0" width="96" height="96"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="R4m-dU-HgI" secondAttribute="height" multiplier="1:1" id="OvR-XW-U6Y"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="想念的距离有多长？如果让我说，想念应该是可以从一个人的心脏一直延伸到另一个心脏的彼端。有这么一段时光，我总会这么的想念一个人。尽管时间怎么地变迁，她怎么地改颜，我仍会如此的想念，如此的年复一年。然而这长长的一生中，又有多少人值得你去想念？" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yNN-bI-Zmy">
+                        <rect key="frame" x="0.0" y="101" width="96" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="yNN-bI-Zmy" firstAttribute="top" secondItem="R4m-dU-HgI" secondAttribute="bottom" constant="5" id="1Md-nx-uZo"/>
+                <constraint firstItem="yNN-bI-Zmy" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Ccg-1r-Ov0"/>
+                <constraint firstItem="R4m-dU-HgI" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="P49-Va-mfM"/>
+                <constraint firstItem="R4m-dU-HgI" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="VZp-CE-kGj"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="yNN-bI-Zmy" secondAttribute="bottom" constant="4" id="XpH-ig-YBy"/>
+                <constraint firstAttribute="trailing" secondItem="yNN-bI-Zmy" secondAttribute="trailing" id="fGD-HX-D9Y"/>
+                <constraint firstAttribute="trailing" secondItem="R4m-dU-HgI" secondAttribute="trailing" id="yj3-tV-bVG"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="96" height="173"/>
+            <connections>
+                <outlet property="iconIamgeView" destination="R4m-dU-HgI" id="JZX-I3-9jb"/>
+            </connections>
+            <point key="canvasLocation" x="174.40000000000001" y="183.95802098950526"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="avatar_user" width="60" height="60"/>
+    </resources>
+</document>

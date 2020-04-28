@@ -1,0 +1,45 @@
+{
+    "banner" :
+        [
+            "http://img.51miz.com/Element/00/71/50/72/4d53a145_E715072_d86dcfec.jpg!/quality/90/unsharp/true/compress/true/format/jpg",
+            "http://img.51miz.com/Element/00/59/89/77/b0cc32ff_E598977_ec1badf4.jpg!/quality/90/unsharp/true/compress/true/format/jpg",
+            "http://img.51miz.com/Element/00/59/17/30/ea63fc9a_E591730_7e976e9d.jpg!/quality/90/unsharp/true/compress/true/format/jpg",
+            "http://img.51miz.com/Element/00/60/66/69/a8c88398_E606669_5e593aff.jpg!/quality/90/unsharp/true/compress/true/format/jpg",
+            "http://img.51miz.com/Element/00/59/18/25/adc8a902_E591825_ec1fb23e.jpg!/quality/90/unsharp/true/compress/true/format/jpg"
+        ],
+        "bannerTitle" : [
+            "童年的美好时光。。",
+            "阳光明媚，春意盎然",
+            "时光荏苒，回首往事",
+            "人生一世，草木一秋，",
+            "怀脆梦想，勇攀高峰"
+        ],
+    "Tab" : [
+           {
+               "Name": "HomeController",
+               "title": "Life",
+               "imageurl": "tabBar_home_icon",
+               "content":"Test1"
+           },
+           {
+               "Name": "DiscoveryController",
+               "title": "发现",
+               "imageurl": "tabBar_discovery_icon",
+               "content":"Test1"
+           },
+           {
+               "Name": "EssayController",
+               "title": "阅读",
+               "imageurl": "tabBar_essay_icon",
+               "content":"Test1"
+           },
+           {
+               "Name": "MyController",
+               "title": "我的",
+               "imageurl": "tabBar_my_icon",
+               "content":"Test1"
+           }
+       ]
+   
+}
+
